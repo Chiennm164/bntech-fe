@@ -1,0 +1,35 @@
+.content {
+     margin-top: 70px;
+}
+
+.info p{
+     font-size: 20px;
+     font-weight: 500;
+     border-bottom: 1px solid #ccc;
+     padding: 10px 20px;
+     display: block;
+}
+.info span{
+     color: #999;
+     padding-left: 10px;
+}
+.group-btn{
+     display: flex;
+     align-items: center;
+}
+.group-btn svg{
+margin-left: 15px;
+}
+.group-btn{
+}
+#thumb .title{
+position: relative;
+}
+#thumb .title p::before{
+position: absolute;
+content: '';
+width: 200px;
+height: 8px;
+bottom: -10px;
+background-color: #49a6e9;
+}
