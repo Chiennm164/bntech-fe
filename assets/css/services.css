@@ -54,6 +54,9 @@ font-size: 30px;
      font-weight: 500;
      padding-bottom: 20px;
 }
-.service-content--des{
 
+
+.group-img img{
+     padding-bottom: 40px;
+     width: 100%;
 }

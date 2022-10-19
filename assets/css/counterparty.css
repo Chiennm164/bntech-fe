@@ -1,25 +1,27 @@
-#content {margin-top: 90px;
-margin-bottom: 50px;
+#content {
+     margin-top: 90px;
+     margin-bottom: 50px;
 }
-#content  .title{
+#content .title {
      font-size: 30px;
      color: blue;
      text-transform: uppercase;
      padding: 20px;
      font-weight: 500;
 }
-#content  .list{
-display: flex;
-flex-wrap: wrap;
+#content .list {
+     display: flex;
+     flex-wrap: wrap;
 }
 #content {
-
 }
 .list .item {
-/* border: 1px solid red; */
-margin: 10px 0;
+     margin: 10px 0;
+     padding: 10px;
+
 }
 .item img {
      border: 1px solid blue;
-padding: 10px 0;
+     padding: 10px 0;
+     width: 100%;
 }

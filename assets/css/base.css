@@ -7,7 +7,7 @@
      --text1-color: #333;
      --text2-color: #243f99;
      --text3-color: #fff;
-     --text4-color: #8a949a;
+     --text4-color: #555;
      --boxshadow1-color: rgb(0 0 0 / 20%);
      --boxshadow2-color: rgb(0 0 0 / 50%);
      --boxshadow3-color: rgb(102 102 102 / 90%);
@@ -54,13 +54,13 @@ body {
 .des-main {
      font-size: 18px;
      color: var(--text4-color);
-     padding: 30px 0 10px 0;
+     padding: 30px 0 20px 0;
 }
 /* css detail main      */
 .detail-main {
      color: var(--text4-color);
      padding-left: 10px;
-     font-size: 18px;
+     font-size: 20px;
 }
 /* css span main 1  */
 .span-main-1 {
@@ -74,7 +74,7 @@ body {
 .title-main {
      color: var(--text2-color);
      font-weight: 500;
-     font-size: 30px;
+     font-size: 28px;
      padding: 20px 0 35px 0;
      text-transform: uppercase;
      position: relative;
@@ -84,8 +84,8 @@ body {
 .title-main2 {
      color: var(--text2-color);
      font-weight: 500;
-     font-size: 40px;
-     padding: 20px 0 0 0;
+     font-size: 50px;
+     padding: 20px  0;
      text-transform: uppercase;
 }
 .title-main span {
@@ -137,7 +137,7 @@ body {
 #header {
      top: 0;
      left: 0;
-     width: 100vw;
+     width: 100%;
      z-index: 999;
      box-shadow: 0 0 5px 0 var(--boxshadow2-color);
      opacity: 0.9;
@@ -146,7 +146,7 @@ body {
      display: flex;
      height: 60px;
      align-items: center;
-     max-height: 90px;
+     min-height: 100px;
      padding: 20px;
      border-radius: 2px;
 }
@@ -166,20 +166,20 @@ body {
      justify-content: flex-end;
 }
 #navbar a {
-     font-size: 1.7rem;
-     /* margin-left:45px; */
-     padding: 0 20px;
+     font-size: 2rem;
+     margin: 0 15px;
+     padding: 0 5px;
      font-weight: 500;
-     color: var(--text-color);
+     color: var(--text2-color);
      text-transform: uppercase;
      cursor: pointer;
      line-height: 60px;
      text-decoration: none;
      text-align: center;
+     position: relative;
 }
-#navbar a:hover {
+#navbar a:hover  {
      color: var(--text-des-color);
-     background-color: var(--bg3-color);
 }
 
 /* css footer  */
@@ -194,10 +194,10 @@ footer {
      padding: 5rem 0 3rem 0;
      color: var(--text3-color);
 }
-.logo-company{
+.logo-company {
      display: flex;
-    flex-direction: column;
-    align-items: center;
+     flex-direction: column;
+     align-items: center;
 }
 .footer-wrap img {
      width: 280px;
@@ -239,6 +239,7 @@ footer {
 .footer-map iframe {
      width: 100%;
      height: 100%;
+    min-width: 500px;
 }
 .line-end {
      border-top: 1px solid var(--border1-color);
@@ -282,12 +283,12 @@ footer {
      width: 100%;
      padding-top: 2%;
      color: var(--text2-color);
-     font-size: 30px;
-     font-weight: 600;
+     font-size: 50px;
+     font-weight: 700;
      text-transform: uppercase;
 }
 #thumb .des {
-     font-size: 20px;
+     font-size: 22px;
      color: var(--text1-color);
 }
 /* css project     */
