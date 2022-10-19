@@ -45,7 +45,7 @@
 @media (max-width: 1200px) {
      #navbar a {
           font-size: 18px;
-          margin: 0 10px;
+          margin: 0 8px;
      }
      #text-run {
           font-size: 22px;
@@ -63,7 +63,6 @@
 @media (max-width: 1100px) {
      #navbar a {
           font-size: 18px;
-          margin: 0 10px;
      }
      #text-run {
           font-size: 20px;
@@ -76,6 +75,10 @@
      .project img {
           min-height: 400px;
      }
+     .group-img img{
+          width: 100%;
+     }
+
 }
 
 /* // Large devices (desktops, 992px and up) */

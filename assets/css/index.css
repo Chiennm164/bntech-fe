@@ -105,13 +105,15 @@
 }
 
 .products-btn {
-     color: blue;
-     font-size: 20px;
+     color: #243f99;
+     font-size: 22px;
+     font-weight: 500;
+     text-decoration: none;
 }
 
 .products-btn:hover {
-     color: red;
-     font-size: 20px;
+     font-size: 24px;
+     opacity: 0.9;
 }
 
 /* css projects  */

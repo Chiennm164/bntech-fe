@@ -46,17 +46,19 @@
      width: 100%;
 }
 .service-content {
-
 }
-.service-content--text{
-     color: red;     text-transform: uppercase;
-font-size: 30px;
+.service-content--text {
+     color: red;
+     text-transform: uppercase;
+     font-size: 30px;
      font-weight: 500;
      padding-bottom: 20px;
 }
 
-
-.group-img img{
+.group-img img {
      padding-bottom: 40px;
      width: 100%;
+}
+.group-img2 img {
+     padding-bottom: 40px;
 }

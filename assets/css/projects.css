@@ -14,3 +14,7 @@
      min-height: 550px;
      width: 100%;
 }
+#projects .title-main {
+     padding: 10px;
+     margin-bottom: 40px;
+}

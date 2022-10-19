@@ -27,6 +27,7 @@ html {
 }
 body {
      font-family: "Roboto", sans-serif;
+     /* font-family:  Geneva, Tahoma, sans-serif; */
      font-size: 1.6rem;
      line-height: 1.6;
      text-rendering: optimizeSpeed;
@@ -36,11 +37,12 @@ body {
 .btn-main {
      color: var(--text3-color);
      background-color: var(--bg2-color);
-     padding: 1rem 3rem;
+     padding: 1.5rem 3.5rem;
      border: none;
      border-radius: 2px;
      text-transform: uppercase;
      font-weight: 600;
+     text-decoration: none;
      font-size: 1.5rem;
      letter-spacing: 1px;
      box-shadow: 1px 1px 5px 1px var(--boxshadow3-color);
@@ -168,7 +170,8 @@ body {
      flex: 1;
      justify-content: flex-end;
 }
-#navbar a ,.sp{
+#navbar a,
+.sp {
      font-size: 2rem;
      margin: 0 15px;
      padding: 0 5px;
@@ -186,16 +189,15 @@ body {
      margin: 0;
      font-size: 16px !important;
 }
-#navbar a:hover ,.sp:hover {
+#navbar a:hover,
+.sp:hover {
      color: var(--text-des-color);
 }
 #navbar a:hover ul {
-     display:block;
-
+     display: block;
 }
-#navbar .sp:hover ul{
-     display:block;
-
+#navbar .sp:hover ul {
+     display: block;
 }
 
 #navbar ul {
@@ -204,12 +206,11 @@ body {
      position: absolute;
      top: 100%;
      min-width: 250px;
-     left: 0px;
+     left: 40%;
      background-color: #fff;
      padding: 0;
-     box-shadow: 1px 1px 5px 1px rgb(102 102 102 / 90%);
+     box-shadow: 1px 1px 6px 1px rgb(102 102 102 / 80%);
 }
-
 
 #navbar ul li {
      color: #172183;
@@ -360,11 +361,42 @@ footer {
      font-size: 20px;
      font-weight: 500;
 }
+
+.project-des {
+     display: none;
+     bottom: 15%;
+     padding-bottom: 5px;
+     position: absolute;
+     left: 10%;
+     font-size: 16px;
+     width: 85%;
+     font-weight: 400;
+}
+
 .project img {
      width: 100%;
      min-height: 450px;
      opacity: 0.9;
-     object-fit: fill;
+     object-fit: cover;
+     object-position: right;
+     cursor: pointer;
+     transition: all 0.2s linear;
+}
+
+/* .project:hover{
+     color: red;
+} */
+.project:hover .project-des {
+     display: block;
+     transition: all 0.2s linear;
+}
+.project:hover .project-title {
+     bottom: 40%;
+     transition: all 0.2s linear;
+}
+.project:hover img {
+     transform: scale(1.03);
+     border: 1px solid #f5f5f58f;
 }
 .project-title {
      bottom: 25%;
@@ -379,7 +411,14 @@ footer {
      left: 10%;
      bottom: 5%;
      position: absolute;
+     cursor: pointer;
+     text-decoration: none;
+     color: #fff;
 }
+.project-btn:hover {
+     color: #013189;
+}
+/* css show moblie */
 .show {
      display: flex !important;
      /* color: red; */
@@ -390,4 +429,20 @@ footer {
      background: #ccc;
      top: 100px;
      left: 0px;
+}
+/* css active project */
+
+.activeProject {
+     color: red;
+     position: relative;
+}
+.activeProject::after {
+     content: "";
+     width: 100%;
+     height: 4px;
+     position: absolute;
+     bottom: 0;
+     background-color: red;
+     left: 0;
+
 }
