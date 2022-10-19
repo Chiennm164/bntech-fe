@@ -1,8 +1,7 @@
 /* css carousel  */
 #carousel {
-     /* margin-top: 90px; */
+     margin-top: 100px;
      width: 100%;
-     /* max-height: 200px; */
 }
 .carousel-indicators [data-bs-target] {
      width: 12px;
