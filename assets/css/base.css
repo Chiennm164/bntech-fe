@@ -446,3 +446,10 @@ footer {
      left: 0;
 
 }
+.scroll {
+     flex-wrap: nowrap !important;
+     transition: all 1s linear;
+}
+.btn-hiden{
+opacity: 0.5;
+}

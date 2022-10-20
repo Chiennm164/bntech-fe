@@ -11,7 +11,7 @@ let projects = [
                'http://hungtri.com/upload/images/2.3-so-do-to-chuc-financial-partners.jpg',
                'http://hungtri.com/upload/images/2019-04-origin-55c2bac2ff413f021072892df4d40873-500x0.jpg',
                'http://hungtri.com/upload/images/unnamed-6-.jpg ',
-               'http://hungtri.com/upload/images/anh1-nhamaytanifood-zytl-1-.jpg'
+               '/assets/images/1.jpg'
           ],
           info: {
                client: 'BigC',
@@ -20,11 +20,40 @@ let projects = [
                system: 'Mitsubitshi',
                wattage: '3kw-1.100kw',
           },
-          detail: {
-               detail1: ['Nhà máy đông lạnh', 'chi tiết nhà máy đông lạnh'],
-               detail2: ['Cấu tạo - Nguyên Lý kho lạnh', 'Cấu tạo - Nguyên Lý kho lạnh'],
-               detail3: ['Đặc kiểm kỹ thuật', 'chi tiết Đặc kiểm kỹ thuật'],
-          },
+          detail:
+
+               [
+                    ['Nhà máy đông lạnh',
+                         `Đối với nhà máy dông lạnh , yêu cầu tiên quyết là kiểm soát nhiệt độ bảo quản sản phẩm trong kho lạnh .
+             Cùng việc lắp đặt kho lạnh cho khách hàng , BKTECH có thể thiết kế , cung cấp và lắp đặt hệ thống điều khiển , kiểm soát
+             , giám soát , giảm nhiệt độ bằng những thiết bị điện tử của những nhà cung cấp hàng đầu thế giới như ABB , Dixell , Schneider, ...
+             Với công nghệ 4.0 , khi khách hàng có yêu cầu , BKTECH có thể hỗ trợ giảm sát , cảnh báo từ xa cho khách hàng khi có tín hiệu
+             sự cố đồng thời tư vấn khách hàng xử lý sự cố trước khi cần sự có mặt của bộ phận dịch vụ bảo trì BKTECH.
+             `],
+                    [
+                         'Cấu tạo - Nguyên Lý kho lạnh',
+                         `Kho lạnh được lắp ráp từ những tấm panel cách nhiệt .
+         Các tấm panel kết nối với nhau bằng cơ chế ngàm Z-lock cho tấm vạch và trần .
+         Cấu tạo cảu panel cách nhiệt gốm 2 lớp tole colorbond hoặc inox , lớp giữa là form cách nhiệt .`,
+                         [
+                              `Độ dài của tôle colorbond hoặc innox từ 0.41 mm đến 1.5 mm .`,
+                              `Độ dày của panel từ 50 mm đến 200 mm tương ứng vơi nhu cầu của khách hàng và sản phẩm .`,
+                              `Khổ rộng của tấm panel từ 600 mm đến 1,120 mm .`,
+                              `Chiều dài của tấm panel tối đa là 12,0000mm .`],
+                         `Tấm panel trần dài sẽ được thiết kế có cáp treo trên
+             khung đà mái nhà để hỗ trợ tăng-đưa . Vách sẽ được mỗ và gắn một khung cửa để làm cửa ra vào .`
+                    ],
+                    [
+                         'Đặc kiểm kỹ thuật',
+                         [
+                              'Công suất : 1,000 MT đến 20,000 MT . ',
+                              ' Foam chống cháy lan theo tiêu chuẩn Việt Nam .',
+                              'Ứng dụng : sử dụng làm kho lạnh cho thuê , kho chứa hàng lạnh phục vụ trong các xưởng chế biến thuỷ sản , thực phẩm . ',
+                              ' Nhiệt độ kho từ -60 độ C/ ~ 20 độ C tuỳ thuộc vào yêu cầu của khách hàng và sản phẩm .'
+                         ]
+                    ]
+               ]
+          ,
           des: 'cong nghiep lanh',
           top: true,
           style: 1,
@@ -45,11 +74,12 @@ let projects = [
                system: 'Mitsubitshi',
                wattage: '3kw-1.100kw',
           },
-          detail: {
-               detail1: ['Nhà máy đông lạnh', 'chi tiết nhà máy đông lạnh'],
-               detail2: ['Cấu tạo - Nguyên Lý kho lạnh', 'Cấu tạo - Nguyên Lý kho lạnh'],
-               detail3: ['Đặc kiểm kỹ thuật', 'chi tiết Đặc kiểm kỹ thuật'],
-          },
+          detail: [
+
+               ['Nhà máy đông lạnh', 'chi tiết nhà máy đông lạnh'],
+               ['Cấu tạo - Nguyên Lý kho lạnh', 'Cấu tạo - Nguyên Lý kho lạnh'],
+               ['Đặc kiểm kỹ thuật', 'chi tiết Đặc kiểm kỹ thuật'],
+          ],
           des: 'dieu hoa',
           top: true,
           style: 2,
@@ -70,11 +100,12 @@ let projects = [
                system: 'Mitsubitshi',
                wattage: '3kw-1.100kw',
           },
-          detail: {
-               detail1: ['Nhà máy đông lạnh', 'chi tiết nhà máy đông lạnh'],
-               detail2: ['Cấu tạo - Nguyên Lý kho lạnh', 'Cấu tạo - Nguyên Lý kho lạnh'],
-               detail3: ['Đặc kiểm kỹ thuật', 'chi tiết Đặc kiểm kỹ thuật'],
-          },
+          detail: [
+
+               ['Nhà máy đông lạnh', 'chi tiết nhà máy đông lạnh'],
+               ['Cấu tạo - Nguyên Lý kho lạnh', 'Cấu tạo - Nguyên Lý kho lạnh'],
+               ['Đặc kiểm kỹ thuật', 'chi tiết Đặc kiểm kỹ thuật'],
+          ],
           des: 'cong nghiep lanh',
           top: true,
           style: 1,
@@ -95,13 +126,14 @@ let projects = [
                system: 'Mitsubitshi',
                wattage: '3kw-1.100kw',
           },
-          detail: {
-               detail1: ['Nhà máy đông lạnh', 'chi tiết nhà máy đông lạnh'],
-               detail2: ['Cấu tạo - Nguyên Lý kho lạnh', 'Cấu tạo - Nguyên Lý kho lạnh'],
-               detail3: ['Đặc kiểm kỹ thuật', 'chi tiết Đặc kiểm kỹ thuật'],
-          },
+          detail: [
+
+               ['Nhà máy đông lạnh', 'chi tiết nhà máy đông lạnh'],
+               ['Cấu tạo - Nguyên Lý kho lạnh', 'Cấu tạo - Nguyên Lý kho lạnh'],
+               ['Đặc kiểm kỹ thuật', 'chi tiết Đặc kiểm kỹ thuật'],
+          ],
           des: 'dieu hoa',
-          top: true,
+          top: false,
           style: 2,
      },
      {
@@ -120,11 +152,12 @@ let projects = [
                system: 'Mitsubitshi',
                wattage: '3kw-1.100kw',
           },
-          detail: {
-               detail1: ['Nhà máy đông lạnh', 'chi tiết nhà máy đông lạnh'],
-               detail2: ['Cấu tạo - Nguyên Lý kho lạnh', 'Cấu tạo - Nguyên Lý kho lạnh'],
-               detail3: ['Đặc kiểm kỹ thuật', 'chi tiết Đặc kiểm kỹ thuật'],
-          },
+          detail: [
+
+               ['Nhà máy đông lạnh', 'chi tiết nhà máy đông lạnh'],
+               ['Cấu tạo - Nguyên Lý kho lạnh', 'Cấu tạo - Nguyên Lý kho lạnh'],
+               ['Đặc kiểm kỹ thuật', 'chi tiết Đặc kiểm kỹ thuật'],
+          ],
           des: 'dieu hoa',
           top: false,
           style: 2,
@@ -145,13 +178,14 @@ let projects = [
                system: 'Mitsubitshi',
                wattage: '3kw-1.100kw',
           },
-          detail: {
-               detail1: ['Nhà máy đông lạnh', 'chi tiết nhà máy đông lạnh'],
-               detail2: ['Cấu tạo - Nguyên Lý kho lạnh', 'Cấu tạo - Nguyên Lý kho lạnh'],
-               detail3: ['Đặc kiểm kỹ thuật', 'chi tiết Đặc kiểm kỹ thuật'],
-          },
+          detail: [
+
+               ['Nhà máy đông lạnh', 'chi tiết nhà máy đông lạnh'],
+               ['Cấu tạo - Nguyên Lý kho lạnh', 'Cấu tạo - Nguyên Lý kho lạnh'],
+               ['Đặc kiểm kỹ thuật', 'chi tiết Đặc kiểm kỹ thuật'],
+          ],
           des: 'cong nghiep lanh',
-          top: false,
+          top: true,
           style: 1,
      },
      {
@@ -170,11 +204,12 @@ let projects = [
                system: 'Mitsubitshi',
                wattage: '3kw-1.100kw',
           },
-          detail: {
-               detail1: ['Nhà máy đông lạnh', 'chi tiết nhà máy đông lạnh'],
-               detail2: ['Cấu tạo - Nguyên Lý kho lạnh', 'Cấu tạo - Nguyên Lý kho lạnh'],
-               detail3: ['Đặc kiểm kỹ thuật', 'chi tiết Đặc kiểm kỹ thuật'],
-          },
+          detail: [
+
+               ['Nhà máy đông lạnh', 'chi tiết nhà máy đông lạnh'],
+               ['Cấu tạo - Nguyên Lý kho lạnh', 'Cấu tạo - Nguyên Lý kho lạnh'],
+               ['Đặc kiểm kỹ thuật', 'chi tiết Đặc kiểm kỹ thuật'],
+          ],
           des: 'cong nghiep lanh',
           top: false,
           style: 1,
@@ -195,11 +230,12 @@ let projects = [
                system: 'Mitsubitshi',
                wattage: '3kw-1.100kw',
           },
-          detail: {
-               detail1: ['Nhà máy đông lạnh', 'chi tiết nhà máy đông lạnh'],
-               detail2: ['Cấu tạo - Nguyên Lý kho lạnh', 'Cấu tạo - Nguyên Lý kho lạnh'],
-               detail3: ['Đặc kiểm kỹ thuật', 'chi tiết Đặc kiểm kỹ thuật'],
-          },
+          detail: [
+
+               ['Nhà máy đông lạnh', 'chi tiết nhà máy đông lạnh'],
+               ['Cấu tạo - Nguyên Lý kho lạnh', 'Cấu tạo - Nguyên Lý kho lạnh'],
+               ['Đặc kiểm kỹ thuật', 'chi tiết Đặc kiểm kỹ thuật'],
+          ],
           des: 'dieu hoa',
           top: false,
           style: 2,
@@ -220,11 +256,90 @@ let projects = [
                system: 'Mitsubitshi',
                wattage: '3kw-1.100kw',
           },
-          detail: {
-               detail1: ['Nhà máy đông lạnh', 'chi tiết nhà máy đông lạnh'],
-               detail2: ['Cấu tạo - Nguyên Lý kho lạnh', 'Cấu tạo - Nguyên Lý kho lạnh'],
-               detail3: ['Đặc kiểm kỹ thuật', 'chi tiết Đặc kiểm kỹ thuật'],
+          detail: [
+
+               ['Nhà máy đông lạnh', 'chi tiết nhà máy đông lạnh'],
+               ['Cấu tạo - Nguyên Lý kho lạnh', 'Cấu tạo - Nguyên Lý kho lạnh'],
+               ['Đặc kiểm kỹ thuật', 'chi tiết Đặc kiểm kỹ thuật'],
+          ],
+          des: 'cong nghiep lanh',
+          top: false,
+          style: 1,
+     },
+     {
+          id: 9,
+          title: 'BIG C Tân Hiệp 9',
+          images: [
+               'http://hungtri.com/upload/images/2.3-so-do-to-chuc-financial-partners.jpg',
+               'http://hungtri.com/upload/images/2019-04-origin-55c2bac2ff413f021072892df4d40873-500x0.jpg',
+               'http://hungtri.com/upload/images/unnamed-6-.jpg ',
+               'http://hungtri.com/upload/images/anh1-nhamaytanifood-zytl-1-.jpg'
+          ],
+          info: {
+               client: 'BigC',
+               time: '08-2020',
+               address: 'Tân Hiệp - TPHCM',
+               system: 'Mitsubitshi',
+               wattage: '3kw-1.100kw',
           },
+          detail: [
+
+               ['Nhà máy đông lạnh', 'chi tiết nhà máy đông lạnh'],
+               ['Cấu tạo - Nguyên Lý kho lạnh', 'Cấu tạo - Nguyên Lý kho lạnh'],
+               ['Đặc kiểm kỹ thuật', 'chi tiết Đặc kiểm kỹ thuật'],
+          ],
+          des: 'cong nghiep lanh',
+          top: false,
+          style: 1,
+     },
+     {
+          id: 9,
+          title: 'BIG C Tân Hiệp 9',
+          images: [
+               'http://hungtri.com/upload/images/2.3-so-do-to-chuc-financial-partners.jpg',
+               'http://hungtri.com/upload/images/2019-04-origin-55c2bac2ff413f021072892df4d40873-500x0.jpg',
+               'http://hungtri.com/upload/images/unnamed-6-.jpg ',
+               'http://hungtri.com/upload/images/anh1-nhamaytanifood-zytl-1-.jpg'
+          ],
+          info: {
+               client: 'BigC',
+               time: '08-2020',
+               address: 'Tân Hiệp - TPHCM',
+               system: 'Mitsubitshi',
+               wattage: '3kw-1.100kw',
+          },
+          detail: [
+
+               ['Nhà máy đông lạnh', 'chi tiết nhà máy đông lạnh'],
+               ['Cấu tạo - Nguyên Lý kho lạnh', 'Cấu tạo - Nguyên Lý kho lạnh'],
+               ['Đặc kiểm kỹ thuật', 'chi tiết Đặc kiểm kỹ thuật'],
+          ],
+          des: 'cong nghiep lanh',
+          top: false,
+          style: 1,
+     },
+     {
+          id: 9,
+          title: 'BIG C Tân Hiệp 9',
+          images: [
+               'http://hungtri.com/upload/images/2.3-so-do-to-chuc-financial-partners.jpg',
+               'http://hungtri.com/upload/images/2019-04-origin-55c2bac2ff413f021072892df4d40873-500x0.jpg',
+               'http://hungtri.com/upload/images/unnamed-6-.jpg ',
+               'http://hungtri.com/upload/images/anh1-nhamaytanifood-zytl-1-.jpg'
+          ],
+          info: {
+               client: 'BigC',
+               time: '08-2020',
+               address: 'Tân Hiệp - TPHCM',
+               system: 'Mitsubitshi',
+               wattage: '3kw-1.100kw',
+          },
+          detail: [
+
+               ['Nhà máy đông lạnh', 'chi tiết nhà máy đông lạnh'],
+               ['Cấu tạo - Nguyên Lý kho lạnh', 'Cấu tạo - Nguyên Lý kho lạnh'],
+               ['Đặc kiểm kỹ thuật', 'chi tiết Đặc kiểm kỹ thuật'],
+          ],
           des: 'cong nghiep lanh',
           top: false,
           style: 1,
@@ -232,7 +347,32 @@ let projects = [
 
 ]
 handlerMenuMobile();
-handlerRenderProjects(projects);
+checkDetail();
+
+function checkDetail() {
+
+     const elDetail = $('#detailProject')
+     const elIndex = $('#text-run')
+     const elProjects = $('#pageProjects')
+
+     if (elDetail) {
+          let idLocal = localStorage.getItem('idProject');
+          if (idLocal) {
+               handlerRenderDetailProject(idLocal)
+          }
+          handlerRenderProjects(projects);
+
+     }
+     if (elIndex) {
+          handlerRenderProjects(projects);
+
+     }
+     if (elProjects) {
+          handlerRenderProjects(projects);
+     }
+
+
+}
 // xử lý nút menu bp mobile
 function handlerMenuMobile() {
      let elNav = $('#navbar')
@@ -277,15 +417,68 @@ function handlerRenderProjects(projects) {
                })
           })
      } else {
-          projects.forEach((pr) => {
-               if (pr.top) {
-                    topProjects.push(pr);
-                    render(topProjects)
+          const btnLeft = $('#detailProject .group-btn .bi-arrow-left-square ');
+          const btnRight = $('#detailProject .group-btn .bi-arrow-right-square ');
+          if (btnLeft != null && btnRight != null) {
+               console.log(btnLeft);
 
-               }
-          });
+               topProjects = projects.filter((p) => p.id < 10);
+               render(topProjects);
+               let num = 0;
+               btnLeft.addEventListener('click', () => {
+
+                    elProject.classList.add('scroll');
+
+                    switch (num) {
+                         case 1:
+                              elProject.style.transform = `translateX(0%)`
+                              num = 0;
+                              btnLeft.classList.add('btn-hiden');
+
+                              break;
+                         case 2:
+                              elProject.style.transform = 'translateX(-25%)';
+                              num = 1;
+                              break;
+                         case 3:
+                              elProject.style.transform = 'translateX(-50%)';
+                              num = 2;
+                              btnRight.classList.remove('btn-hiden')
+                              break;
+                    }
+               })
+               btnRight.addEventListener('click', () => {
+                    elProject.classList.add('scroll');
+                    switch (num) {
+                         case 0:
+                              elProject.style.transform = `translateX(-25%)`;
+                              btnLeft.classList.remove('btn-hiden')
+
+                              num = 1;
+                              break;
+                         case 1:
+                              elProject.style.transform = 'translateX(-50%)';
+                              num = 2;
+
+                              break;
+                         case 2:
+                              elProject.style.transform = 'translateX(-75%)';
+                              num = 3;
+                              btnRight.classList.add('btn-hiden');
+                              break;
+                    }
+               })
+          } else {
+               projects.forEach((pr) => {
+                    if (pr.top) {
+                         topProjects.push(pr);
+                         render(topProjects)
+
+                    }
+               });
+          }
+
           handlerBtnDetailProject()
-
      }
      function choicePr() {
           let active = $('#projects .activeProject');
@@ -298,25 +491,24 @@ function handlerRenderProjects(projects) {
           }
           render(topProjects)
           handlerBtnDetailProject()
-
      }
      function render(topProjects) {
           let htmls = topProjects.map((project) => {
                let img = project.images[3]
                return ` <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12  project">
-     <img src="${img}" alt="">
-     <div class="project-title">${project.title}</div>
-     <div class="project-des"> ${project.des} </div>
-     <a id="${project.id}" class="project-btn">Chi tiết
-          <span><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
-                    fill="currentColor" class="bi bi-arrow-right-short"
-                    viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
+                         <img loading="lazy" src="${img}" alt="">
+                         <div class="project-title">${project.title}</div>
+                         <div class="project-des"> ${project.des} </div>
+                         <a href="../pages/detail.html" id="${project.id}" class="project-btn">Chi tiết
+                         <span><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                   fill="currentColor" class="bi bi-arrow-right-short"
+                                   viewBox="0 0 16 16">
+                                   <path fill-rule="evenodd"
                          d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-               </svg></span>
-     </a>
+                        </svg></span>
+                      </a>
 
-</div>`
+                  </div>`
           }).join('')
           elProject.innerHTML = htmls;
      }
@@ -326,15 +518,18 @@ function handlerBtnDetailProject() {
      let listBtnDetail = $$('.project-btn');
      listBtnDetail.forEach((btn) => {
           btn.addEventListener('click', () => {
-               handlerRenderDetailProject(btn.id)
+               localStorage.clear()
+               localStorage.setItem('idProject', btn.id)
+
           })
      })
 }
+
+
 function handlerRenderDetailProject(id) {
      if (id) {
           let project = projects.find((pr) => pr.id == id)
           if (project) {
-               console.log(project);
 
                $('#detailProject .title p').innerHTML = project.title;
                // __________________________________________
@@ -356,7 +551,23 @@ function handlerRenderDetailProject(id) {
                     thuật cao chuyên về kho lạnh .</div>
                `               // __________________________________________
 
-
+               let content = '';
+               $('#detailProject .detail-pj').innerHTML = project.detail.map((item) => {
+                    let content2 = ''
+                    content = item.map((dt1, index) => {
+                         if (index === 0) {
+                              content2 = ' <h1 class="title-main ">' + dt1 + '</h1>'
+                         } else if (Array.isArray(dt1)) {
+                              content2 = dt1.map((d) => {
+                                   return `<li class="des-main p-0 pb-3 "> ${d}  </li>`
+                              }).join(' ');
+                         } else {
+                              content2 = ' <p class="des-main p-0 pb-3"> ' + dt1 + '</p>'
+                         }
+                         return `${content2} `
+                    }).join(' ');
+                    return `${content}`
+               }).join(' ');
           }
      }
 }

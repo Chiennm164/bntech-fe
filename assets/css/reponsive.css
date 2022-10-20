@@ -37,9 +37,9 @@
           font-size: 17px;
           padding: 0px 0 20px 0;
      }
-     .project img {
-          /* min-height: 400px; */
-     }
+     /* .project img {
+          min-height: 400px;
+     } */
 }
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (max-width: 1200px) {

@@ -45,8 +45,8 @@
 .service-img {
      width: 100%;
 }
-.service-content {
-}
+/* .service-content {
+} */
 .service-content--text {
      color: red;
      text-transform: uppercase;
