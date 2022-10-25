@@ -58,3 +58,12 @@
      bottom: 0;
      cursor: pointer;
 }
+.list-product svg {
+     width: 20px;
+     height: 20px;
+     color: #172183c7;
+}
+
+.list-product p {
+     font-size: 18px;
+}

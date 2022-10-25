@@ -54,7 +54,7 @@ let projects = [
                     ]
                ]
           ,
-          des: 'cong nghiep lanh',
+          des: 'chi tiet cong nghiep lanh,chi tiet cong nghiep lanh,chi tiet cong nghiep lanh,chi tiet cong nghiep lanh,chi tiet cong nghiep lanh,chi tiet cong nghiep lanh',
           top: true,
           style: 1,
      },
@@ -404,7 +404,7 @@ function handlerMenuMobile() {
 function handlerRenderProjects(projects) {
      let topProjects = [];
      let elProject = $('#projects .loop');
-     let elTitle = $$('#projects .title-main')
+     let elTitle = $$('#projects .title-main-s')
      if (elTitle.length > 0) {
           choicePr()
 
@@ -496,18 +496,21 @@ function handlerRenderProjects(projects) {
           let htmls = topProjects.map((project) => {
                let img = project.images[3]
                return ` <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12  project">
+                         <div class="project-wrap">
                          <img loading="lazy" src="${img}" alt="">
-                         <div class="project-title">${project.title}</div>
-                         <div class="project-des"> ${project.des} </div>
-                         <a href="../pages/detail.html" id="${project.id}" class="project-btn">Chi tiết
-                         <span><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                         <div class="project-text" >
+                            <div class="project-title">${project.title}</div>
+                             <div class="project-des"> ${project.des} </div>
+                              <a href="../pages/detail.html" id="${project.id}" class="project-btn">Chi tiết
+                              <span><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
                                    fill="currentColor" class="bi bi-arrow-right-short"
                                    viewBox="0 0 16 16">
                                    <path fill-rule="evenodd"
-                         d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-                        </svg></span>
-                      </a>
-
+                                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                 </svg></span>
+                                 </a>
+                         </div>
+                         </div>
                   </div>`
           }).join('')
           elProject.innerHTML = htmls;
@@ -540,7 +543,7 @@ function handlerRenderDetailProject(id) {
                }).join('');
                // __________________________________________
                $('#detailProject .info').innerHTML = `
-               <div class="title-main title-xl p-0 ">Thông tin dự án</div>
+               <div class="title-main-s title-xl p-0 ">Thông tin dự án</div>
                <p>Khách hàng : <span>${project.info.client}</span> </p>
                <p>Thời gian : <span> ${project.info.time}</span> </p>
                <p>Địa điểm : <span>${project.info.address}</span> </p>
@@ -556,10 +559,10 @@ function handlerRenderDetailProject(id) {
                     let content2 = ''
                     content = item.map((dt1, index) => {
                          if (index === 0) {
-                              content2 = ' <h1 class="title-main ">' + dt1 + '</h1>'
+                              content2 = ' <h1 class="title-main-m ">' + dt1 + '</h1>'
                          } else if (Array.isArray(dt1)) {
                               content2 = dt1.map((d) => {
-                                   return `<li class="des-main p-0 pb-3 "> ${d}  </li>`
+                                   return `<li class="des-main p-0 pb-3 text-left "> ${d}  </li>`
                               }).join(' ');
                          } else {
                               content2 = ' <p class="des-main p-0 pb-3"> ' + dt1 + '</p>'

@@ -10,8 +10,9 @@
      display: block;
 }
 .info span{
-     color: #999;
-     padding-left: 10px;
+     color: #634545;
+    padding-left: 10px;
+    font-weight: 400;
 }
 .group-btn{
      display: flex;
@@ -20,8 +21,8 @@
 .group-btn svg{
 margin-left: 15px;
 }
-.group-btn{
-}
+/* .group-btn{
+} */
 #thumb .title{
 position: relative;
 }
@@ -37,6 +38,10 @@ background-color: #49a6e9;
      overflow: hidden;
 }
 .loop {
+     display: none;
      flex-wrap: nowrap;
 
+}
+.detail-pj .des-main{
+text-align: left;
 }

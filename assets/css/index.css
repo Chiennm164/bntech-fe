@@ -51,7 +51,7 @@
      margin-bottom: 30px;
 }
 .introduce-img img {
-     width: 100%;
+     width: 90%;
      height: 100%;
      object-fit: cover;
 }
@@ -68,7 +68,7 @@
 }
 /* css services  */
 #services {
-     margin: 0 0 5rem 0;
+     padding: 0 0 100px 0;
 }
 
 .service-item {
@@ -85,7 +85,11 @@
 /* css products */
 
 #products {
-     margin: 0 0 5rem 0;
+     padding: 40px 0 5rem 0;
+}
+.products {
+     padding: 20px;
+
 }
 
 .products-wrap {
@@ -97,13 +101,21 @@
      display: flex;
      flex-wrap: wrap;
      align-items: center;
-     justify-content: center;
+     justify-content: space-between;
      padding: 60px;
      text-align: left;
      margin-bottom: 20px;
+     flex-direction: column;
+
+}
+.products-wrap:hover {
+     box-shadow: 0 4px 8px 8px #0000004d;
 
 }
 
+.products .des-main{
+     width: 90%;
+}
 .products-btn {
      color: #243f99;
      font-size: 22px;
@@ -118,7 +130,7 @@
 
 /* css projects  */
 #projects {
-     margin: 0 0 5rem 0;
+     margin: 40px 0 100px 0;
 }
 
 /* css pattern  */
@@ -126,7 +138,7 @@
      width: 100%;
      min-height: 100px;
      overflow: hidden;
-     padding-bottom: 20px;
+     padding-bottom: 100px;
 }
 
 .counterparty-wrap {
