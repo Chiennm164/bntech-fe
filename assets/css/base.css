@@ -250,12 +250,17 @@ justify-content: center;
 }
 
 #navbar ul li {
+     text-align: left;
+
+}
+#navbar ul li a {
      color: #172183;
      list-style: none;
+     padding: 20px;
      font-size: 16px;
      text-align: left;
      padding-left: 15px;
-     text-transform: none;
+     text-transform: uppercase;
 }
 
 #navbar ul li:hover {

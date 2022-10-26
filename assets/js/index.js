@@ -1,7 +1,6 @@
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
-console.log('ji');
 // list các dự án
 let projects = [
      {
@@ -378,7 +377,6 @@ function handlerMenuMobile() {
      let elMenu = $('.menu-mobile')
 
      elMenu.onclick = () => {
-          console.log('a');
           let a = elNav.classList.toggle('show')
 
           if (a) {
@@ -403,7 +401,6 @@ function handlerMenuMobile() {
 function handlerRenderProjects(projects) {
      let topProjects = [];
      let elProject = $('#projects .loop');
-     console.log(elProject);
      let elTitle = $$('#projects .title-main-s')
      if (elTitle.length > 0) {
           choicePr()
@@ -416,66 +413,12 @@ function handlerRenderProjects(projects) {
                })
           })
      } else {
-          const btnLeft = $('#detailProject .group-btn .bi-arrow-left-square ');
-          const btnRight = $('#detailProject .group-btn .bi-arrow-right-square ');
-          if (btnLeft != null && btnRight != null) {
-               console.log(btnLeft);
-
-               topProjects = projects.filter((p) => p.id < 10);
-               render(topProjects);
-               let num = 0;
-               btnLeft.addEventListener('click', () => {
-
-                    elProject.classList.add('scroll');
-
-                    switch (num) {
-                         case 1:
-                              elProject.style.transform = `translateX(0%)`
-                              num = 0;
-                              btnLeft.classList.add('btn-hiden');
-
-                              break;
-                         case 2:
-                              elProject.style.transform = 'translateX(-25%)';
-                              num = 1;
-                              break;
-                         case 3:
-                              elProject.style.transform = 'translateX(-50%)';
-                              num = 2;
-                              btnRight.classList.remove('btn-hiden')
-                              break;
-                    }
-               })
-               btnRight.addEventListener('click', () => {
-                    elProject.classList.add('scroll');
-                    switch (num) {
-                         case 0:
-                              elProject.style.transform = `translateX(-25%)`;
-                              btnLeft.classList.remove('btn-hiden')
-
-                              num = 1;
-                              break;
-                         case 1:
-                              elProject.style.transform = 'translateX(-50%)';
-                              num = 2;
-
-                              break;
-                         case 2:
-                              elProject.style.transform = 'translateX(-75%)';
-                              num = 3;
-                              btnRight.classList.add('btn-hiden');
-                              break;
-                    }
-               })
-          } else {
-               projects.forEach((pr) => {
-                    if (pr.top) {
-                         topProjects.push(pr);
-                         render(topProjects)
-                    }
-               });
-          }
-
+          projects.forEach((pr) => {
+               if (pr.top) {
+                    topProjects.push(pr);
+                    render(topProjects)
+               }
+          });
           handlerBtnDetailProject()
      }
      // nút chuyển các title , trong page dự án
