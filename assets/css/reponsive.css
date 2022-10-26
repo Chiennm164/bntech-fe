@@ -254,3 +254,45 @@
           align-items: center;
      }
 }
+@media (max-width: 375.98px) {
+     .logo{
+          width: 150px;
+     }
+     .header-wrap {
+          padding: 20px;
+
+     }
+     #thumb{
+          min-height: 250px;
+          max-height: 300px;
+     }
+     #thumb .title{
+          font-size: 30px;
+     }
+     .des-main{
+          font-size: 16px;
+
+     }
+     .des-main-l{
+          font-size: 16px;
+     }
+     .title-main-l{
+          font-size: 25px;
+
+     }
+     .title-main-m{
+          font-size: 18px;
+          text-align: left;
+     }
+     .title-main-s{
+          font-size: 20px;
+
+     }
+     .detail-main {
+          font-size: 16px;
+     }
+
+     .footer-wrap img{
+          width: 200px;
+     }
+}

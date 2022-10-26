@@ -26,3 +26,6 @@
      font-size: 18px;
      padding-left: 10px;
 }
+#content img {
+     width: 100%;
+}

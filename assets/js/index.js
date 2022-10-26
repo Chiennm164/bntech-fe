@@ -1,7 +1,7 @@
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
-
+console.log('ji');
 // list các dự án
 let projects = [
      {
@@ -361,7 +361,6 @@ function checkDetail() {
                handlerRenderDetailProject(idLocal)
           }
           handlerRenderProjects(projects);
-
      }
      if (elIndex) {
           handlerRenderProjects(projects);
@@ -404,10 +403,10 @@ function handlerMenuMobile() {
 function handlerRenderProjects(projects) {
      let topProjects = [];
      let elProject = $('#projects .loop');
+     console.log(elProject);
      let elTitle = $$('#projects .title-main-s')
      if (elTitle.length > 0) {
           choicePr()
-
           elTitle.forEach((et) => {
                et.addEventListener('click', () => {
                     let a = $('#projects .activeProject');
@@ -473,13 +472,13 @@ function handlerRenderProjects(projects) {
                     if (pr.top) {
                          topProjects.push(pr);
                          render(topProjects)
-
                     }
                });
           }
 
           handlerBtnDetailProject()
      }
+     // nút chuyển các title , trong page dự án
      function choicePr() {
           let active = $('#projects .activeProject');
           if (active.id == 1) {
@@ -492,6 +491,7 @@ function handlerRenderProjects(projects) {
           render(topProjects)
           handlerBtnDetailProject()
      }
+     // render list project
      function render(topProjects) {
           let htmls = topProjects.map((project) => {
                let img = project.images[3]
@@ -517,6 +517,7 @@ function handlerRenderProjects(projects) {
      }
 
 }
+// nút chi tiết trong card project
 function handlerBtnDetailProject() {
      let listBtnDetail = $$('.project-btn');
      listBtnDetail.forEach((btn) => {
@@ -528,7 +529,7 @@ function handlerBtnDetailProject() {
      })
 }
 
-
+// render 1 project , với tham số là id
 function handlerRenderDetailProject(id) {
      if (id) {
           let project = projects.find((pr) => pr.id == id)

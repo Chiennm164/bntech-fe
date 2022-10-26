@@ -38,7 +38,7 @@ background-color: #49a6e9;
      overflow: hidden;
 }
 .loop {
-     display: none;
+     /* display: none; */
      flex-wrap: nowrap;
 
 }
